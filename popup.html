@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <script src="jquery-3.6.4.min.js"></script>
+        <style>
+            body {
+                background-color: #d3def1;
+            }
+
+            .syllabus-prin {
+                font-weight: bold;
+                color: #ffffff;
+                padding: 3px;
+                background-color: #9c6b7b;
+            }
+    
+            table.syllabus-normal {
+                background-color: #D5DDBB;
+                border-collapse: collapse;
+                border: solid 1px #ffffff;
+            }
+
+            .selector03 {
+                border-left: 7px solid #C2A3AB;
+                border-bottom: 1px dashed #C2A3AB;
+                padding: 0.6em 0.8em;
+                background-color: white;
+            }
+
+            .portlet-title {
+                background: none;
+                background-image: none;
+                background-color: #4694d1;
+                border-radius: 10px;
+            }
+
+            .portlet {
+                background: none;
+                background-image: none;
+                background-color: #a3bce2;
+                margin: 0 auto !important;
+                text-align: center;
+            }
+
+            .portlet {
+                border-radius: 10px;
+            }
+
+            .portlet {
+                box-shadow: 3px 3px 3px #000;
+            }
+
+            .portlet-break {
+                clear: both;
+            }
+            .portlet-s {
+                /*
+                position: relative;
+                float: left;
+                */
+                width: 80vw;
+                min-width: 80vh;
+                border: 1px transparent solid;
+                margin: 5px;
+                padding: 4px;
+                /* padding-bottom: 10px; */
+                text-align: left;
+            }
+            .portlet {
+                /*
+                position: relative;
+                */
+                border-collapse: separate;
+            }
+        </style>
+    </head>
+<body>
+    <div>
+        <img src="./logo.png" alt="">
+    </div>
+    <br><br>
+    <div class="portlet portlet-s portlet-break">
+
+        <div class="portlet-title clearfix" id="wf_PTW0005001-s_20120920145156-title">
+            <img src=""><span>　　メニュー一覧</span>
+            <input type="hidden" name="wfNm" id="wfNm" value="よく使うメニュー">
+            <input type="hidden" name="wfNmEng" id="wfNmEng" value="Usual Menu">
+            <input type="hidden" name="wfIcon" id="wfIcon" value="icon/info.png">
+            <input type="hidden" name="wfDeleteFlg" id="wfDeleteFlg" value="1">
+        </div>
+            
+        <table border="0" width="100%" style="word-break:break-all;">
+            <tr>
+                <td width="20px">
+                <div style="margin-left: 10px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <img style="border:none; width:16px; height:16px; margin:0px; margin-right:5px; margin-bottom:2px; padding:0px;" src="">
+                </div>
+                </td>
+                <td>
+                <div style="margin-left: 3px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <a href="popup.html#a1">
+                        学部/大学院/開講所属
+                    </a>
+                </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td width="20px">
+                <div style="margin-left: 10px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <img style="border:none; width:16px; height:16px; margin:0px; margin-right:5px; margin-bottom:2px; padding:0px;" src="">
+                </div>
+                </td>
+                <td>
+                <div style="margin-left: 3px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <a href="popup.html#a2">
+                        曜限/開講区分
+                    </a>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="20px">
+                <div style="margin-left: 10px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <img style="border:none; width:16px; height:16px; margin:0px; margin-right:5px; margin-bottom:2px; padding:0px;" src="">
+                </div>
+                </td>
+                <td>
+                <div style="margin-left: 3px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <a href="popup.html#a3">
+                        備考
+                    </a>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="20px">
+                <div style="margin-left: 10px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <img style="border:none; width:16px; height:16px; margin:0px; margin-right:5px; margin-bottom:2px; padding:0px;" src="">
+                </div>
+                </td>
+                <td>
+                <div style="margin-left: 3px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <a href="popup.html#a4">
+                        担当教員
+                    </a>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="20px">
+                <div style="margin-left: 10px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <img style="border:none; width:16px; height:16px; margin:0px; margin-right:5px; margin-bottom:2px; padding:0px;" src="">
+                </div>
+                </td>
+                <td>
+                <div style="margin-left: 3px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <a href="popup.html#a5">
+                        教室
+                    </a>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="20px">
+                <div style="margin-left: 10px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <img style="border:none; width:16px; height:16px; margin:0px; margin-right:5px; margin-bottom:2px; padding:0px;" src="">
+                </div>
+                </td>
+                <td>
+                <div style="margin-left: 3px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <a href="popup.html#a6">
+                        講義題目/授業の目標、概要
+                    </a>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="20px">
+                <div style="margin-left: 10px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <img style="border:none; width:16px; height:16px; margin:0px; margin-right:5px; margin-bottom:2px; padding:0px;" src="">
+                </div>
+                </td>
+                <td>
+                <div style="margin-left: 3px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <a href="popup.html#a7">
+                        授業計画/授業の方法/成績評価方法
+                    </a>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="20px">
+                <div style="margin-left: 10px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <img style="border:none; width:16px; height:16px; margin:0px; margin-right:5px; margin-bottom:2px; padding:0px;" src="">
+                </div>
+                </td>
+                <td>
+                <div style="margin-left: 3px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <a href="popup.html#a8">
+                        教科書/参考書
+                    </a>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="20px">
+                <div style="margin-left: 10px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <img style="border:none; width:16px; height:16px; margin:0px; margin-right:5px; margin-bottom:2px; padding:0px;" src="">
+                </div>
+                </td>
+                <td>
+                <div style="margin-left: 3px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <a href="popup.html#a9">
+                        履修上の注意
+                    </a>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="20px">
+                <div style="margin-left: 10px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <img style="border:none; width:16px; height:16px; margin:0px; margin-right:5px; margin-bottom:2px; padding:0px;" src="">
+                </div>
+                </td>
+                <td>
+                <div style="margin-left: 3px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <a href="popup.html#a10">
+                        メールアドレス/研究室電話番号
+                    </a>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="20px">
+                <div style="margin-left: 10px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <img style="border:none; width:16px; height:16px; margin:0px; margin-right:5px; margin-bottom:2px; padding:0px;" src="">
+                </div>
+                </td>
+                <td>
+                <div style="margin-left: 3px; margin-top: 4px; margin-bottom: 5px; position: center;">
+                    <a href="popup.html#a11">
+                        オンライン授業URL/オンライン授業内容/授業実施形態
+                    </a>
+                </div>
+                </td>
+            </tr>
+
+
+        </table>
+    
+    </div>
+
+    <br><br><br>
+
+    <div id="tab-1">
+        <h3 style="width: 700px" class="selector03" id="a1">学部/大学院/開講所属</h3>
+        <table class="syllabus-normal" border="1" cellpadding="3" cellspacing="0" width="710" id="c1">
+            <!--
+            <tr>
+                <th class="syllabus-prin" width="200"></th>
+                <td class="syllabus-break-word"></td>
+            </tr>
+            -->
+        </table>
+        <br><br><br>
+
+        <h3 style="width: 700px" class="selector03" id="a2">曜限/開講区分</h3>
+        <table class="syllabus-normal" border="1" cellpadding="3" cellspacing="0" width="710" id="c2">
+        </table>
+        <br><br><br>
+
+        <h3 style="width: 700px" class="selector03" id="a3">備考</h3>
+        <table class="syllabus-normal" border="1" cellpadding="3" cellspacing="0" width="710" id="c3">
+        </table>
+        <br><br><br>
+
+        <h3 style="width: 700px" class="selector03" id="a4">担当教員</h3>
+        <table class="syllabus-normal" border="1" cellpadding="3" cellspacing="0" width="710" id="c4">
+        </table>
+        <br><br><br>
+
+        <h3 style="width: 700px" class="selector03" id="a5">教室</h3>
+        <table class="syllabus-normal" border="1" cellpadding="3" cellspacing="0" width="710" id="c5">
+        </table>
+        <br><br><br>
+
+        <h3 style="width: 700px" class="selector03" id="a6">講義題目/授業の目標、概要</h3>
+        <table class="syllabus-normal" border="1" cellpadding="3" cellspacing="0" width="710" id="c6">
+        </table>
+        <br><br><br>
+        
+        <h3 style="width: 700px" class="selector03" id="a7">授業計画/授業の方法/成績評価方法</h3>
+        <table class="syllabus-normal" border="1" cellpadding="3" cellspacing="0" width="710" id="c7">
+        </table>
+        <br><br><br>
+
+        <h3 style="width: 700px" class="selector03" id="a8">教科書/参考書</h3>
+        <table class="syllabus-normal" border="1" cellpadding="3" cellspacing="0" width="710" id="c8">
+        </table>
+        <br><br><br>
+
+        <h3 style="width: 700px" class="selector03" id="a9">履修上の注意</h3>
+        <table class="syllabus-normal" border="1" cellpadding="3" cellspacing="0" width="710" id="c9">
+        </table>
+        <br><br><br>
+
+        <h3 style="width: 700px" class="selector03" id="a10">メールアドレス/研究室電話番号</h3>
+        <table class="syllabus-normal" border="1" cellpadding="3" cellspacing="0" width="710" id="c10">
+        </table>
+        <br><br><br>
+
+        <h3 style="width: 700px" class="selector03" id="a11">オンライン授業URL/オンライン授業内容/授業実施形態</h3>
+        <table class="syllabus-normal" border="1" cellpadding="3" cellspacing="0" width="710" id="c11">
+        </table>
+        <br><br><br>
+
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

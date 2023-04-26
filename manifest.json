@@ -1,0 +1,10 @@
+{
+    "name": "UTAS Plus",
+    "description": "UTAS extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "host_permissions": ["https://utas.adm.u-tokyo.ac.jp/campusweb/"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
